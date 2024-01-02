@@ -1,0 +1,24 @@
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer {
+    flex: 1;
+    display: flex;
+    max-width: 1200px; /* Ajusta el ancho máximo del contenido según sea necesario */
+    margin: 0 auto; /* Centra el contenido en pantallas más grandes */
+}
+
+.footer {
+    flex: 0.01;
+    padding: 40px; /* Ajusta según sea necesario */
+    background-color: #f2f2f2;
+    text-align: start;
+    color: #333;
+    width: 100%;
+    margin-top: auto; /* Coloca el pie de página al final del contenedor */
+}
